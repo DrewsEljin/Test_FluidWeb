@@ -1,0 +1,61 @@
+input {
+    outline: none;
+    height: 60px;
+    width: 600px;
+    border-radius: 6px;
+    font-size: 24px;
+    border: 1px solid #000;
+}
+
+.text {
+    outline: none;
+    height: 200px;
+    width: 600px;
+    resize: none;
+}
+
+form {
+    margin: 0 auto;
+}
+
+.updt_btn {
+    height: 60px;
+    color: #fff;
+    background-color: #ED4C5C;
+    font-weight: 400;
+    font-size: 24px;
+    width: 160px;
+    transition: 0.3s;
+    border: none;
+    border-radius: 6px;
+}
+
+.back_btn {
+    margin-top: 20px;
+    height: 60px;
+    color: #fff;
+    background-color: green;
+    font-weight: 400;
+    font-size: 24px;
+    width: 160px;
+    transition: 0.3s;
+    border: none;
+    border-radius: 6px;
+}
+
+.inpt_lbl {
+    font-size: 24px;
+    width: 100px;
+}
+
+.back_btn:hover {
+    background-color: #fff;
+    color: green;
+    border: 1px solid green;
+}
+
+.updt_btn:hover {
+    background-color: #fff;
+    color: #ED4C5C;
+    border: 1px solid #ED4C5C;
+}
